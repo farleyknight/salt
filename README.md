@@ -13,6 +13,24 @@ Features
 + Installing Salt, you also install Crystal
 + Praises [semantic versioning](http://semver.org)
 
+Package structure
+-----------------
+
+```
+├── package
+│    ├── src
+│    │    ├── package.cr
+│    │    └── package
+│    │         ├── cli.cr
+│    │         ├── parser.cr
+│    │         └── version.cr
+│    ├── spec
+│    │    └── ...
+│    ├── package.cr
+│    ├── LICENSE
+│    └── README
+```
+
 License
 -------
 
